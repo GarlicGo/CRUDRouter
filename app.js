@@ -52,7 +52,7 @@ router
         ctx.type = 'html';
         ctx.body = fs.createReadStream('./public/index.html');
     })
-    .use('/api', api)
+    .use('/api', koaJwt, api)
 
 // 应用路由
 app
