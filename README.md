@@ -133,7 +133,7 @@
                 /*
                     filter（过滤条件，选填，对象字符串）: 默认为{},
                     projection（返回字段，选填，对象字符串）:
-                        {}: 返回查询到条目的所有字段（默认）;
+                        {}（默认）: 返回查询到条目的所有字段;
                         {field1: true}: 仅返回查询条目的field1字段;
                         {filed1: true, field2: true}: 仅返回查询条目的field1和field2字段;
                         {field1: false}: 返回查询条目除field1的所有字段;
