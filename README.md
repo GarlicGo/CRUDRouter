@@ -39,9 +39,9 @@
 + METHOD : DELETE
 + 格式 :
 
-```http
-    ROOT_URL/api/${表名}/${_id}
-```
+    ```http
+        ROOT_URL/api/${表名}/${_id}
+    ```
 
 + 请求示例（jqAjax） :
 
@@ -58,15 +58,15 @@
 + METHOD : PUT
 + 格式1 :
 
-```http
-    ROOT_URL/api/${表名}
-```
+    ```http
+        ROOT_URL/api/${表名}
+    ```
 
 + 格式2 :
 
-```http
-    ROOT_URL/api/${表名}/${_id}
-```
+    ```http
+        ROOT_URL/api/${表名}/${_id}
+    ```
 
 + 请求示例（jqAjax） :
 
@@ -113,15 +113,15 @@
 + METHOD : GET
 + 格式1 :
 
-```http
-    ROOT_URL/api/${表名}
-```
+    ```http
+        ROOT_URL/api/${表名}
+    ```
 
 + 格式2 :
 
-```http
-    ROOT_URL/api/${表名}/${_id}
-```
+    ```http
+        ROOT_URL/api/${表名}/${_id}
+    ```
 
 + 请求示例（jqAjax） :
 
