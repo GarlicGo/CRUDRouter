@@ -144,7 +144,7 @@
                         {field1: true}: 仅返回查询条目的field1字段;
                         {filed1: true, field2: true}: 仅返回查询条目的field1和field2字段;
                         {field1: false}: 返回查询条目除field1的所有字段;
-                        {filed1: true, field2: true}: 返回查询条目除field1和field2的所有字段;
+                        {filed1: false, field2: false}: 返回查询条目除field1和field2的所有字段;
                         ...
                     注：因为get请求无法真正传递json格式的数据，因此这里一定要使用JSON.stringify()将对象转化为对象字符串传递给后端解析
                 */
@@ -168,7 +168,7 @@
                         {field1: true}: 仅返回查询条目的field1字段;
                         {filed1: true, field2: true}: 仅返回查询条目的field1和field2字段;
                         {field1: false}: 返回查询条目除field1的所有字段;
-                        {filed1: true, field2: true}: 返回查询条目除field1和field2的所有字段;
+                        {filed1: false, field2: false}: 返回查询条目除field1和field2的所有字段;
                         ...
                     注：同1
                 */
