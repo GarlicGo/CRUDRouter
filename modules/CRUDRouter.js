@@ -217,7 +217,7 @@ class CRUDRouter {
                     await this.db.find(
                         this.collectionName,
                         {_id: ObjectId(id)},
-                        JSON.parse(payload.projection)
+                        payload.projection==undefined?{}:JSON.parse(payload.projection)
                     ).then(res => {
                         returnData = {
                             status: 200,
